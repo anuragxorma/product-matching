@@ -1,0 +1,17 @@
+{"product_id": 1, "name": "Brown Leather Boots", "category": "Footwear", "price": 79.99, "image_path": "data/images/shoes1.jpg", "description": "Durable brown leather boots suitable for casual and outdoor wear."}
+{"product_id": 2, "name": "White Ceramic Mug", "category": "Kitchen", "price": 5.99, "image_path": "data/images/mug1.jpg", "description": "Simple white ceramic mug perfect for coffee, tea, or hot chocolate."}
+{"product_id": 3, "name": "Black Over-Ear Headphones", "category": "Electronics", "price": 59.99, "image_path": "data/images/headphones1.jpg", "description": "Comfortable black over-ear headphones with clear sound and deep bass."}
+{"product_id": 4, "name": "Non-Stick Frying Pan", "category": "Kitchen", "price": 24.99, "image_path": "data/images/pan1.jpg", "description": "Versatile non-stick frying pan ideal for everyday cooking."}
+{"product_id": 5, "name": "Black Running Shoes", "category": "Footwear", "price": 69.99, "image_path": "data/images/shoes2.jpg", "description": "Lightweight black running shoes with breathable mesh design."}
+{"product_id": 6, "name": "Wristwatch", "category": "Accessories", "price": 149.99, "image_path": "data/images/watch1.jpg", "description": "Stylish wristwatch with a modern design for daily wear."}
+{"product_id": 7, "name": "Black Computer Mouse", "category": "Electronics", "price": 14.99, "image_path": "data/images/computer_mouse1.jpg", "description": "Ergonomic black computer mouse for smooth and precise control."}
+{"product_id": 8, "name": "Red JBL Bluetooth Speaker", "category": "Electronics", "price": 89.99, "image_path": "data/images/speaker1.jpg", "description": "Portable red JBL Bluetooth speaker with powerful sound."}
+{"product_id": 9, "name": "White Tote Bag", "category": "Accessories", "price": 12.99, "image_path": "data/images/totebag1.jpg", "description": "Reusable white tote bag made from durable fabric."}
+{"product_id": 10, "name": "Black Sunglasses", "category": "Accessories", "price": 19.99, "image_path": "data/images/sunglasses1.jpg", "description": "Stylish black sunglasses with UV protection."}
+{"product_id": 11, "name": "Purple Gardening Gloves", "category": "Garden", "price": 8.99, "image_path": "data/images/gloves.jpg", "description": "Comfortable purple gardening gloves for plant care and yard work."}
+{"product_id": 12, "name": "Ladybug Pattern Ceramic Mug", "category": "Kitchen", "price": 7.99, "image_path": "data/images/mug2.jpg", "description": "Red ceramic mug with black dot ladybug pattern."}
+{"product_id": 13, "name": "Ceramic Plate", "category": "Kitchen", "price": 4.99, "image_path": "data/images/plate1.jpg", "description": "Plain ceramic plate suitable for daily meals."}
+{"product_id": 14, "name": "Black Bluetooth Earpods", "category": "Electronics", "price": 49.99, "image_path": "data/images/earpods.png", "description": "Wireless black Bluetooth earpods with charging case."}
+{"product_id": 15, "name": "Half-Closed Laptop", "category": "Electronics", "price": 999.99, "image_path": "data/images/laptop1.jpg", "description": "Sleek half-closed laptop, lightweight and high performance."}
+{"product_id": 16, "name": "Wooden Frame Chairs with Blue Cushions", "category": "Furniture", "price": 199.99, "image_path": "data/images/chairs1.jpg", "description": "Set of three wooden frame chairs with comfortable blue cushions."}
+{"product_id": 17, "name": "Black Framed Spectacles", "category": "Accessories", "price": 29.99, "image_path": "data/images/glasses1.jpg", "description": "Black framed reading spectacles resting on an open book."}
