@@ -29,7 +29,7 @@ Thumbs.db
 ehthumbs.db
 
 # Windows Zone.Identifier streams
-*.Zone.Identifier
+*Zone.Identifier
 
 # IDE / editor settings
 .vscode/
