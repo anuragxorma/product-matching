@@ -81,7 +81,7 @@ Single container with:
 
 ---
 
-## ** Step-by-Step Tasks That Were Completed**
+## Step-by-Step Tasks That Were Completed
 **Set up project & environment**
 - Python 3.11 virtualenv.
 - Installed: `torch`, `torchvision`, `Pillow`, `numpy`, `faiss-cpu`, `openai-clip`, `fastapi`, `uvicorn`.
@@ -123,52 +123,58 @@ Single container with:
 ## **Running Locally (Without Docker)**
 
 **Clone repo & enter directory**
-    ```bash
-    git clone <your-repo-url>
-    cd product-matching
+```bash
+git clone <your-repo-url>
+cd product-matching
+```
 
 **Create virtual environment**
-    ```bash
-    python3 -m venv .venv
-    source .venv/bin/activate
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
 **Install dependencies**
-    ```bash
-    pip install torch torchvision pillow numpy faiss-cpu git+https://github.com/openai/CLIP.git fastapi uvicorn
+```bash
+pip install torch torchvision pillow numpy faiss-cpu git+https://github.com/openai/CLIP.git fastapi uvicorn
+```
 
 **Run demo script**
-    ```bash
-    python pm_demo.py
+```bash
+python pm_demo.py
+```
 
 **Run API**
-    ```bash
-    uvicorn app:app --reload --port 9000
+```bash
+uvicorn app:app --reload --port 9000
+```
 
 **Test**
-    ```bash
-    curl http://localhost:9000/health
+```bash
+curl http://localhost:9000/health
+```
 
 ## Running with Docker
 
 ### Build image
-    ```bash
-    docker build -t product-matching:cpu .
-    ```
+```bash
+docker build -t product-matching:cpu .
+```
 ### Run container with caching
 
-    ```bash
-    mkdir -p ~/.cache/clip ~/.cache/torch
+```bash
+mkdir -p ~/.cache/clip ~/.cache/torch
 
-    docker run --rm -p 9000:9000 \
-    -v $PWD/data:/app/data:ro \
-    -v $HOME/.cache/clip:/root/.cache/clip \
-    -v $HOME/.cache/torch:/root/.cache/torch \
-    product-matching:cpu
-    ```
+docker run --rm -p 9000:9000 \
+-v $PWD/data:/app/data:ro \
+-v $HOME/.cache/clip:/root/.cache/clip \
+-v $HOME/.cache/torch:/root/.cache/torch \
+product-matching:cpu
+```
 
 ### Test API
-    ```bash
-    curl http://localhost:9000/health
+```bash
+curl http://localhost:9000/health
     ```
 
 ## Future Improvements
@@ -203,5 +209,5 @@ For details on scaling this prototype to production including NVIDIA Triton serv
 
 ---
 
-> _"Simple now, scalable later."_ – Project motto
+
 
