@@ -124,7 +124,7 @@ Single container with:
 
 **Clone repo & enter directory**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/anuragxorma/product-matching
 cd product-matching
 ```
 
