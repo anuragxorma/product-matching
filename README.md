@@ -175,7 +175,7 @@ product-matching:cpu
 ### Test API
 ```bash
 curl http://localhost:9000/health
-    ```
+```
 
 ## Future Improvements
 - Switch to Triton Inference Server for scalable model serving.
